@@ -24,3 +24,11 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+.font-weight-400{
+    font-weight: 400 !important;
+   
+}
+/*header*/
+.border-right-1px{
+  border-right: 1px solid rgba(255,255,255,0.5);
+}

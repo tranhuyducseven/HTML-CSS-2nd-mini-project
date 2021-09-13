@@ -1,0 +1,29 @@
+.header {
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(230, 63, 48, 1) 0%,
+    rgba(232, 97, 53, 0.9248074229691877) 100%
+  );
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__list {
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__list__item {
+  padding: 0 8px;
+  
+}
+.navbar__list__item,
+.navbar__list__item-link {
+    display: inline-block;
+  font-size: 1.4rem;
+  color: var(--white-color);
+  padding-left: 8px;
+  font-weight: 300;
+  text-decoration: none;
+}
