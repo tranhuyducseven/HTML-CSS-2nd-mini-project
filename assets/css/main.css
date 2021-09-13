@@ -13,6 +13,7 @@
 .navbar__list {
   list-style: none;
   padding-left: 0;
+  margin-top: 8px;
 }
 .navbar__list__item {
   padding: 0 8px;
@@ -26,4 +27,13 @@
   padding-left: 8px;
   font-weight: 300;
   text-decoration: none;
+}
+.navbar__list__item:hover,
+.navbar__list__item-link:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.navbar__list__item_contact{
+    margin-left: 8px;
+    color:var(--white-color);
 }
