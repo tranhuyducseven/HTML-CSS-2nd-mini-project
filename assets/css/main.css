@@ -17,23 +17,37 @@
 }
 .navbar__list__item {
   padding: 0 8px;
-  
 }
 .navbar__list__item,
 .navbar__list__item-link {
-    display: inline-block;
+  display: inline-block;
   font-size: 1.4rem;
   color: var(--white-color);
   padding-left: 8px;
   font-weight: 300;
   text-decoration: none;
 }
-.navbar__list__item:hover,
-.navbar__list__item-link:hover{
-    opacity: 0.7;
-    cursor: pointer;
+.navbar__list__item,
+.navbar__list__item-link,
+.navbar__list__item_contact {
+  display: inline-flex;
+  align-items: center;
 }
-.navbar__list__item_contact{
-    margin-left: 8px;
-    color:var(--white-color);
+.navbar__list__item:hover,
+.navbar__list__item-link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.navbar__list__item--nopointer {
+  color: var(--white-color) ;
+  cursor: text;
+ 
+}
+.navbar__list__item_contact {
+  margin-left: 8px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.navbar__list__icon {
+  font-size: 18px;
 }
