@@ -111,7 +111,24 @@
   /*tâm của transform */
   transform-origin: calc(100% - 30px) top;
 }
-@keyframes notifiGrowth {
+.header__notify::before {
+  content: "";
+  border-width: 15px 24px;
+  border-style: solid;
+  border-color: transparent transparent var(--white-color) transparent;
+  position: absolute;
+  right: 12px;
+  top: -22px;
+}
+.header__notify::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  right: 0;
+  top: -10px;
+}
+@keyframes notifyGrowth {
   from {
     opacity: 0;
     transform: scale(0);
