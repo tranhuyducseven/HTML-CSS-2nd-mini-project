@@ -3,7 +3,7 @@
   --white-color: #fff;
   --black-color: #000;
   --text-color: #333;
-  --border-color:#dbdbdb;
+  --border-color: #dbdbdb;
 }
 * {
   box-sizing: inherit;
@@ -58,25 +58,40 @@ html {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .modal__body {
-  background-color: var(--white-color);
   margin: auto;
   position: relative;
-  z-index: 100;
-  border-radius: 5px;
+  z-index: 100; 
+
 }
 
 /*Button style*/
-.btn{
+.btn {
   min-width: 142px;
-  height: 36px;
+  height: 34px;
   text-decoration: none;
   border: none;
   border-radius: 2px;
   font-size: 1.5 rem;
-padding: 0px;
+  padding: 0 12px;
+  cursor: pointer;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
 }
-.btn.btn--primary{
- background-color: var(--primary-color);
- color:var(--white-color);
-
+.btn.btn--normal:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.btn .btn--size-s {
+  height: 32px;
+  font-size: 12px;
+  padding: 0 8px;
+}
+.btn.btn--primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.btn.btn--disable {
+  cursor: default;
 }
