@@ -346,6 +346,7 @@
 .header__search-input-wrap {
   flex: 1;
   height: 100%;
+  position: relative;
 }
 .header__search-input {
   width: 100%;
@@ -453,4 +454,14 @@
 }
 .header__search-option-item-active i {
   display: inline-block;
+}
+/*Header-history*/
+.header__search-history {
+  position: absolute;
+  background-color: var(--white-color);
+  left: 0;
+  top: calc(100% + 2px);
+  width: calc(100% -16px);
+  border-radius: 3px;
+  box-shadow: 0 1px #666;
 }
