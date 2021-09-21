@@ -361,7 +361,7 @@
   font-size: 1.4rem;
   line-height: 1.4rem;
   border-radius: 10px;
-  border: 2px solid #e64c35;
+  border: 2px solid #e74c35;
 }
 .header__cart-wrap:hover .header__cart-list {
   display: block;
