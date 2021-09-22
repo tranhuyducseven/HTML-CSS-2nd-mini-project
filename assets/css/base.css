@@ -96,12 +96,12 @@ html {
 
 /*Button style*/
 .btn {
-  min-width: 124px;
+  min-width: 90px;
   height: 34px;
   text-decoration: none;
   border: none;
   border-radius: 2px;
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   padding: 0 12px;
   cursor: pointer;
   color: var(--text-color);
@@ -125,4 +125,50 @@ html {
 }
 .btn.btn--disable {
   cursor: default;
+}
+
+/*selection*/
+.select-input {
+  position: relative;
+  height: 34px;
+  min-width: 200px;
+  padding: 0 12px;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-input:hover .select-input__list{
+  display: block;
+}
+.select-input__label {
+  font-size: 1.5rem;
+}
+.select-input__icon {
+  font-size: 1.4rem;
+  color: #4a4a4a;
+  position: relative;
+  top: 1px;
+}
+.select-input__list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25px;
+  border-radius: 2px;
+  list-style: none;
+  padding: 8px 16px;
+  background-color: var(--white-color);
+  display: none;
+}
+.select-input__link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color:var(--text-color);
+  padding:4px 12px;
+  display: block;
+}
+.select-input__link:hover{
+  color: var(--primary-color);
 }
