@@ -19,6 +19,7 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+/*responsive */
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -31,6 +32,7 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+
 .font-weight-400 {
   font-weight: 400 !important;
 }
